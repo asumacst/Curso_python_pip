@@ -1,0 +1,10 @@
+services:
+  store:
+    build:
+      context: .
+      
+    volumes: 
+      - .:/web_server
+    ports:
+      - "80:80"
+    
